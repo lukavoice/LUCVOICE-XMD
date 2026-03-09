@@ -11,7 +11,7 @@
   "name": "lucvoice-xmd-multi-device-whatsapp-bot-system",
   "version": "3.1.0",
   "description": "LUCVOICE-XMD Powerful WhatsApp Multi Device Bot with automation tools, APIs, downloads, AI features and smart assistant system.",
-  "main": "lucvoice.js",
+  "main": "index.js",
   "type": "commonjs",
   "scripts": {
     "start": "node lucvoice.js",
