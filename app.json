@@ -1,0 +1,132 @@
+{
+  "name": "LUCVOICE-XMD",
+  "description": "LUCVOICE-XMD is a powerful WhatsApp Multi Device Bot built for automation, AI chat, media tools, and smart assistant features.",
+  "logo": "https://telegra.ph/file/0c225f7da5616cdcbec11.jpg",
+  "keywords": [
+    "whatsapp-bot",
+    "lucvoice-xmd",
+    "automation",
+    "ai-bot",
+    "baileys-md",
+    "multi-device",
+    "chatbot",
+    "downloader"
+  ],
+  "repository": "https://github.com/lucvoice/LUCVOICE-XMD",
+  "website": "https://github.com/lucvoice/LUCVOICE-XMD",
+  "stack": "container",
+  "env": {
+
+    "BOT_NAME": {
+      "description": "Name of your WhatsApp Bot",
+      "value": "LUCVOICE-XMD"
+    },
+
+    "OWNER_NAME": {
+      "description": "Bot Owner Name",
+      "value": "lucvoice"
+    },
+
+    "OWNER_NUMBER": {
+      "description": "Owner WhatsApp Number",
+      "value": "255000000000"
+    },
+
+    "PREFIX": {
+      "description": "Bot Command Prefix",
+      "value": "."
+    },
+
+    "MODE": {
+      "description": "Bot Mode (public/private)",
+      "value": "public"
+    },
+
+    "TIME_ZONE": {
+      "description": "Bot Time Zone",
+      "value": "Africa/Dar_es_Salaam"
+    },
+
+    "AUTO_STATUS_VIEW": {
+      "description": "Automatically view WhatsApp status",
+      "value": "true"
+    },
+
+    "AUTO_STATUS_LIKE": {
+      "description": "Automatically like WhatsApp status",
+      "value": "true"
+    },
+
+    "STATUS_LIKE_EMOJI": {
+      "description": "Emoji used to like WhatsApp status",
+      "value": "❤️"
+    },
+
+    "AUTO_STATUS_REPLY": {
+      "description": "Auto reply to status",
+      "value": "false"
+    },
+
+    "ANTIDELETE": {
+      "description": "Recover deleted messages",
+      "value": "true"
+    },
+
+    "ANTICALL": {
+      "description": "Automatically block users who call the bot",
+      "value": "false"
+    },
+
+    "CHATBOT": {
+      "description": "Enable AI Chatbot",
+      "value": "true"
+    },
+
+    "AUTO_READ": {
+      "description": "Auto read incoming messages",
+      "value": "true"
+    },
+
+    "AUTO_TYPING": {
+      "description": "Show typing indicator",
+      "value": "false"
+    },
+
+    "AUTO_RECORDING": {
+      "description": "Show recording indicator",
+      "value": "false"
+    },
+
+    "BOT_MENU_LINK": {
+      "description": "Menu image or link for bot menu",
+      "value": "https://telegra.ph/file/0c225f7da5616cdcbec11.jpg"
+    },
+
+    "START_MESSAGE": {
+      "description": "Message sent when bot starts",
+      "value": "LUCVOICE-XMD bot is now online and ready to use."
+    },
+
+    "HEROKU_API_KEY": {
+      "description": "Your Heroku API Key",
+      "required": false
+    },
+
+    "HEROKU_APP_NAME": {
+      "description": "Your Heroku App Name",
+      "required": false
+    },
+
+    "SESSION_ID": {
+      "description": "Paste your WhatsApp Session ID here",
+      "required": false
+    }
+
+  },
+
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
