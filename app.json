@@ -12,8 +12,8 @@
     "chatbot",
     "downloader"
   ],
-  "repository": "https://github.com/lucvoice/LUCVOICE-XMD",
-  "website": "https://github.com/lucvoice/LUCVOICE-XMD",
+  "repository": "https://github.com/lukabrand/LUCVOICE-XMD",
+  "website": "https://github.com/lukabrand/LUCVOICE-XMD",
   "stack": "container",
   "env": {
 
