@@ -37,7 +37,7 @@ const date = moment().format('DD/MM/YYYY');
 ┃๏│▸ 𝗖𝗿𝗲𝗮𝘁𝗼𝗿 : 𝗖𝗵𝘂𝗴𝗮𝗺𝗮𝗻
 ┃๏└───────────···▸
 ╰──────────────┈⊷\n${readmore}`;
-    let menuMsg = `𝗖𝗛𝗨𝗚𝗔-𝗫𝗠𝗗 𝓲𝓼 𝓬𝓸𝓷𝓷𝓮𝓬𝓽𝓮𝓭 
+    let menuMsg = `-LUCVOICE-XMD is connected  
 `;
     for (const cat in coms) {
         menuMsg += `
@@ -54,7 +54,7 @@ const date = moment().format('DD/MM/YYYY');
 ╰────────────┈⊷`
     }
     menuMsg += `
-> 𝗖𝗛𝗨𝗚𝗔 𝗫𝗠𝗗\n
+> LUCVOICE-XMD\n
 `;
    var lien = mybotpic();
    if (lien.match(/\.(mp4|gif)$/i)) {
