@@ -34,7 +34,7 @@ const date = moment().format('DD/MM/YYYY');
 ┃๏│▸ 𝗗𝗮𝘁𝗲  : *${date}* 
 ┃๏│▸ 𝗥𝗮𝗺 : 𝟴/𝟭𝟯𝟮 𝗚𝗕
 ┃๏│▸ 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : 𝗖𝗵𝗿𝗼𝗺𝗲 𝗟𝗶𝗻𝘂𝘅
-┃๏│▸ 𝗖𝗿𝗲𝗮𝘁𝗼𝗿 : 𝗖𝗵𝘂𝗴𝗮𝗺𝗮𝗻
+┃๏│▸ 𝗖𝗿𝗲𝗮𝘁𝗼𝗿 : 𝗟𝘂𝗰𝘃𝗼𝗶𝗰𝗲
 ┃๏└───────────···▸
 ╰──────────────┈⊷\n${readmore}`;
     let menuMsg = `-LUCVOICE-XMD is connected  
